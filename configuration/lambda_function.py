@@ -1,7 +1,7 @@
-import numpy as np
+#import numpy as np
 
 def lambda_handler(event, context):
-    output = np.random.rand(3,2)
-    print(output)
+#    output = np.random.rand(3,2)
+#    print(output)
 
     print('Ankur Kumar | Done x2')
