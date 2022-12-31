@@ -5,7 +5,8 @@ phases:
       python: 3.8
     commands:
       - echo "Installing dependencies..."
-      - pip install --user -r requirements.txt -t lib
+      - pip3 install awscli --upgrade --user
+      - pip install numpy pandas  
   build:
     commands:
       - echo "Zipping deployment package..."
