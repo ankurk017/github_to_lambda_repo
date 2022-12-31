@@ -5,7 +5,9 @@ phases:
       python: 3.8
     commands:
       - echo "Installing dependencies..."
-      - pip install numpy==1.21.0 -t lib
+      - pip3 install numpy==1.21.0 -t lib
+      - python test.py
+      
   build:
     commands:
       - echo "Zipping deployment package..."
